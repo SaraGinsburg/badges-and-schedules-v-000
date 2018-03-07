@@ -1,4 +1,4 @@
-speakers = [Edsger, Ada, Charles, Alan, Grace, Linus, Matz]
+speakers = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 badges   =  []
 
 def badge_maker(name)
