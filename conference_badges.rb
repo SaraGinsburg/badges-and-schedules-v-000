@@ -11,5 +11,6 @@ def batch_badge_creator(speakers_arr)
 end
 
 def assign_rooms(attendees)
-  
+  attendees.map do |att|
+    "Hello, #{att}! You'll be assigned to room #{attendees.index(att) + 1}!"
 end
