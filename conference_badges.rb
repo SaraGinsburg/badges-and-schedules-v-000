@@ -9,6 +9,6 @@ end
 def batch_badge_creator(speaker)
 
   badges << badge_maker(speaker)
-  
+
   badges
 end
